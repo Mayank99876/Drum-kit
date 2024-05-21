@@ -1,0 +1,4 @@
+background-color: #283149;
+text-color: #da0463;
+font-color:#dbedf3;
+border-color: #404b69;

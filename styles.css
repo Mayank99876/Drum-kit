@@ -1,0 +1,79 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+  background-image: url("images/pexels-markus-spiske-3806767.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 5rem;
+  margin: 20px auto;
+  color: #dbedf3;
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.w {
+  background-image: url("images/tom1.png");
+  background-repeat: no-repeat;
+}
+.a {
+  background-image: url("images/tom2.png");
+  background-repeat: no-repeat;
+}
+.s {
+  background-image: url("images/tom3.png");
+  background-repeat: no-repeat;
+}
+.d {
+  background-image: url("images/tom4.png");
+  background-repeat: no-repeat;
+}
+.j {
+  background-image: url("images/crash.png");
+  background-repeat: no-repeat;
+}
+.k {
+  background-image: url("images/kick.png");
+  background-repeat: no-repeat;
+}
+.l {
+  background-image: url("images/snare.png");
+  background-repeat: no-repeat;
+}
+.drum {
+  font-size: 5rem;
+  color: #da0463;
+  border: 10px;
+  border-radius: 15px;
+  height: 150px;
+  width: 150px;
+  text-shadow: 0 3px 4px 0 #dbedf3;
+  border-color: #dbedf3;
+  margin: 10px;
+}
+
+button {
+  border: 10px 0 #404b69;
+}
+
+.pressed {
+  border: 10px solid #404b69;
+}
+
+footer {
+  font-family: sans-serif;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 10px;
+  text-align: center;
+  color: #dbedf3;
+  /* background-color: #404b69; */
+}
