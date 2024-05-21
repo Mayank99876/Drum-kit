@@ -1,10 +1,10 @@
-var buttonLength = document.querySelectorAll(".drum").length;
+var buttonLength1 = document.querySelectorAll(".drum").length;
 
-for (var i = 0; i < buttonLength; i++) {
+for (var i = 0; i < buttonLength1; i++) {
   document.querySelectorAll(".drum")[i].addEventListener("click", function () {
-    var buttonHTML = this.innerHTML;
-    makeSound(buttonHTML);
-    buttonAnimation(buttonHTML);
+    var buttonHTML1 = this.innerHTML;
+    makeSound(buttonHTML1);
+    buttonAnimation(buttonHTML1);
   });
 }
 
@@ -50,9 +50,9 @@ function makeSound(key) {
   }
 }
 
-function buttonAnimation(buttonActive) {
-  document.querySelector("." + buttonActive).classList.add("pressed");
+function buttonAnimation(buttonActive1) {
+  document.querySelector("." + buttonActive1).classList.add("pressed");
   setTimeout(function () {
-    document.querySelector("." + buttonActive).classList.remove("pressed");
+    document.querySelector("." + buttonActive1).classList.remove("pressed");
   }, 100);
 }
